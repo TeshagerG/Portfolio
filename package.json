@@ -5,7 +5,9 @@
     "github-pages": "^3.0.2"
   },
   "scripts": {
+    "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "build":"react-scripts build"
   }
 }
